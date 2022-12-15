@@ -1,0 +1,16 @@
+.contenedor #boton-contenedor {
+    font-family: Helvetica;
+}
+
+.contenedor #boton-contenedor::before {
+    content: "Pasa por encima";
+}
+
+.contenedor #boton-contenedor:hover {
+    background-color: green;
+    color: white;
+}
+
+.contenedor #boton-contenedor:hover::before {
+    content: "¡Hecho!";
+}
