@@ -13,6 +13,7 @@ function encriptar(){
     document.getElementById("btn3").style.display = "inherit";
     document.getElementById("textarea2").style.display = "show";
     document.getElementById("textarea2").style.display = "inherit";
+    document.getElementById("muneco").style.display = "none";
 }
 
 function desencriptar(){
